@@ -167,7 +167,7 @@ nav li a {
   width: 25px;
   height: 17px;
   transform-origin: bottom;
-  transition: 300ms ease-in-out;
+  transition: 300ms ease-out;
 }
 
 .spd-num {

@@ -4,8 +4,8 @@
     var n = document.getElementById("needle");
 
     var val2;
-    if (r < 50) {
-      val2 = r * 10 - 50;
+    if (r < 10) {
+      val2 = r * 32 - 100;
     } else {
       val2 = (r - 10) * 10;
     }
@@ -14,11 +14,11 @@
 
     n.style.transform = "rotate(" + val2 + "deg)";
 
-    if (r == 10) {
+    if (r == 6) {
       r = 1;
     }
     r++;
-  }, 250);
+  }, 200);
 </script>
 <!DOCTYPE html>
 <html lang="en">
